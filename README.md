@@ -54,6 +54,34 @@ Tate, J., Jenkins, J., Rich, S., Muyskens, J., & Fox, J. (2020, January 22). Fat
 ### GitHub of the Washington Post's data (includes fatal-police-shootings-data.csv):
 Tate, J., Jenkins, J., Rich, S., Muyskens, J., Elliott, K., & Mellnik, T. (2015). Washingtonpost/data-police-shootings. Retrieved July 27, 2020, from https://github.com/washingtonpost/data-police-shootings
 
+---
 
+#### TODO:
 
+#### Update README as needed
+- update for installation and running of code, 
+- explanation of defunct kernel link, 
+- add section for bibliography 
+
+#### Complete Project Code Review 
+- edit and spellchecking 
+     
+#### Complete Kaggel Kernel Project Analysis Review
+- edit and spellchecking
+- add Constitution Citations
+- complete "Correcting This Issue"
+
+#### Complete section on race analysis 
+- quotations, links, and citations
+- edit and spellchecking
+
+#### Add Introduction section @ DONE
+- Add Links to Review Sections 1, 2, and 3 (time allowing) 
+
+#### Add Sources list to README and Notebook
+
+#### Change annotated Notebook filename
+
+### Add conclusion and closing thoughts
+- Remember to give positive feedback on positive aspects of the program!
 
