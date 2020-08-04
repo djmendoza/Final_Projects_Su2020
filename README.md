@@ -13,17 +13,18 @@ The Post recently released this dataset has recently become available for public
 on the data. A legacy copy, as well as my annotated review copy, is included in this GitHUb Repo.  
 Mrinaal007's kernel uses Numpy and Pandas, as well as visualization/plotting modules (e.g., matplotlib, seaborn).
 
-### Project Hypotheses:
+### Initial Project Hypotheses:
 My initial hypotheses is that there are a number of areas for analysis as that could be cleaned up as they hurt credibility.
 Likewise, initial overview of the kernel seems to indicate competent use of pandas, but these are initial trouble spots for analysis or enhancement.
 It looks at age, race, body-cam use, as well as other scenarios. There is a congruence with the scenario presented by The Post
-(i.e., "Black Americans are killed at a much higher rate than white Americans")(Tate et al., 2020), but I suspect the other areas need review.
+(i.e., "Black Americans are killed at a much higher rate than white Americans") (Tate et al., 2020), but I suspect the other areas need review.
 
 The Type III review will cover 3 areas relating to the project:
 
 1. Project Code Review: A detailed review of user Mrinaal007's kernal notebook based on John Weible's *Program Quality and Code Reviews* (Weible, 2020) featuring some analysis.
 2. Kaggel Project Analysis Review: An detailed analysis of one of the sections of the project, featuring an enhancement.
 3. Fatal Force Database Analysis: A brief analysis of racial categories in the Washington Post's *Fatal Force* database. 
+
 
 
 ### Installation and Setup
@@ -33,12 +34,11 @@ Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮�
 Issue: The original project's plotted cells do not always post as expected when initially opening Jupyter Notebook.
 Solution: In the Jupyter Notebook dropdown menu: Select `Kernal > Restart & Run All` 
 
-
----
-
-The team member name and their ID:
+### The team member name and their ID:
 David Mendoza
+
 GitHub ID: djmendoza
+
 Fork URL: https://github.com/djmendoza/Final_Projects_Su2020
 
 ### Project I will be reviewing and enhancing:
