@@ -58,10 +58,11 @@ Tate, J., Jenkins, J., Rich, S., Muyskens, J., Elliott, K., & Mellnik, T. (2015)
 
 #### TODO:
 
-#### Update README as needed
-- update for installation and running of code, 
-- explanation of defunct kernel link, 
-- add section for bibliography 
+#### Update README and Notebook filename
+- update for installation and running of code 
+- ~explanation of defunct kernel link~ # DONE
+- add section for bibliography/sources list to README and Notebook (APA 6)
+- Change annotated Notebook filename
 
 #### Complete Project Code Review 
 - edit and spellchecking 
@@ -75,13 +76,9 @@ Tate, J., Jenkins, J., Rich, S., Muyskens, J., Elliott, K., & Mellnik, T. (2015)
 - quotations, links, and citations
 - edit and spellchecking
 
-#### Add Introduction section @ DONE
-- Add Links to Review Sections 1, 2, and 3 (time allowing) 
+#### Add Introduction section # DONE
+- Add Links to Review Sections 1, 2, and 3 (optional) 
 
-#### Add Sources list to README and Notebook
-
-#### Change annotated Notebook filename
-
-### Add conclusion and closing thoughts
+#### Add conclusion and closing thoughts
 - Remember to give positive feedback on positive aspects of the program!
 
