@@ -28,7 +28,7 @@ The Type III review will cover 3 areas relating to the project:
 
 
 ### Installation and Setup
-Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮🔫_annotated" from the local file location in Jupter Notebooks.
+Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮🔫" from the local file location in Jupter Notebooks.
 
 ### Known Errors and Troubleshooting
 Issue: The original project's plotted cells do not always post as expected when initially opening Jupyter Notebook.
