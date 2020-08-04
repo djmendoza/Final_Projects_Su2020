@@ -1,7 +1,6 @@
 # Final_Projects_Su2020
 IS590PR, Summer 2020 semester.
 
----
 
 ### Type III Project Background:
 Since 2015, The Washington Post ("The Post") has been building a database of fatal police shootings in the United States,
