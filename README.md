@@ -11,7 +11,7 @@ According to The Post, their dataset is nearly twice the size as the official FB
 practices among policing agencies, as well as other factors, and notes, "5480 people have been shot and killed by police since Jan. 1, 2015" (Tate et al., 2015).
 
 The Post recently released this dataset has recently become available for public use, and the kernel I will be reviewing and enhancing ~is~ was the top-rated kernel based
-on the data. A legacy copy, as well as my annotated review copy, is included in this GitHUb Repo.  
+on the data. A legacy copy, as well as my annotated review copy, is included in this GitHub Repo.  
 Mrinaal007's kernel uses Numpy and Pandas, as well as visualization/plotting modules (e.g., matplotlib, seaborn).
 
 ## Initial Project Hypotheses
