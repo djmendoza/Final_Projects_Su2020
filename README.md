@@ -80,7 +80,7 @@ Solution: In the Jupyter Notebook dropdown menu: Select `Kernal > Restart & Run 
 
 - Tate, J., Jenkins, J., Rich, S., Muyskens, J., Kennedy Elliott, & Mellnik, T. (2015). GitHub - washingtonpost/data-police-shootings: The Washington Post is compiling a database of every fatal shooting in the United States by a police officer in the line of duty in 2015 and 2016. The Washington Post. https://github.com/washingtonpost/data-police-shootings
 
-- The Constitution of the United States and The Declaration of Independence (2016th ed.). (2016). Racehorse Publishing.
+- The Constitution of the United States and The Declaration of Independence. (2016). Racehorse Publishing.
 
 - Weible, J. (2020). Program Quality and Code Reviews. https://learn.illinois.edu/pluginfile.php/6279486/mod_resource/content/2/Program Quality and Code Reviews.pdf
 
