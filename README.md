@@ -25,7 +25,7 @@ The Type III review will cover 3 areas relating to the project:
 2. Kaggel Project Analysis Review: An detailed analysis of one of the sections of the project, featuring an enhancement.
 3. Fatal Force Database Analysis: A brief analysis of racial categories in the Washington Post's *Fatal Force* database. 
 
-## The team member name and their ID:
+## The team member name and UID:
 David Mendoza
 
 GitHub ID: djmendoza
@@ -36,7 +36,7 @@ Fork URL: https://github.com/djmendoza/Final_Projects_Su2020
 Mrinaal007 (alias). (2020, July 11). 👮🔫 Police Shootouts 👮🔫. Retrieved July 27, 2020, from https://www.kaggle.com/mrinaal007/police-shootouts (now defunt)
 - It appears that the user Mrninaal007 has either deleted this project or made it private; the above link returns a 404 error. As such, I have included 2 copies in this repository. 
      - One is essentially an untouched version of the original Kaggle kernal with only minor changes to accommodate loading the csv from a local file.
-     - The second,[located here](https://github.com/djmendoza/Final_Projects_Su2020/blob/master/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb), features my review and analysis in full. 
+     - The second, [located here](https://github.com/djmendoza/Final_Projects_Su2020/blob/master/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb), features my review and analysis in full. 
 
 ## Kaggle kernel from this dataset:
 Samoshin, A. (2020, June 17). Data Police shootings. Retrieved July 27, 2020, from https://www.kaggle.com/mrmorj/data-police-shootings
