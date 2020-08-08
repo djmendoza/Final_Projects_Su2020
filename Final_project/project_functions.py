@@ -1,19 +1,3 @@
-# # from Mrinal  https://www.kaggle.com/mrinaal007/police-shootouts (defunct)
-import numpy as np
-import pandas as pd
-import os
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.express as px
-import missingno as msno
-import openpyxl as opxl
-import xlrd
-import xlwt
-import xlsxwriter
-
-
-
-
 def generate_pie_plot(user_defined_df, title_str, values_str):
     """ This function takes in a pd.DataFrame, a user defined title str, a user defined values string,
     and then parses and produces a plotly express pie chart; it then returns the dataframe.
@@ -22,8 +6,14 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
     The Washington Post -
     https://www.washingtonpost.com/graphics/investigations/police-shootings-database/
 
-    It is designed for queries in the following format:
-    unarmed_alone = df[(df.armed =='unarmed')]
+    It is designed for queries in the following format in the main():
+
+    px_title = 'armed'
+    px_value ='race'
+    px_df = df[(df.armed !='unarmed')]
+
+    not_unarmed_df = generate_pie_plot(px_df, px_title, px_value)
+
 
     Adapted from or inspired by the following:
     Mrinal, https://www.kaggle.com/mrinaal007/police-shootouts (defunct)
@@ -35,7 +25,8 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
     The Pandas Development Team (2020),
     https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
     The Data Wrangling with pandas Cheat Sheet https://pandas.pydata.org/
-    and Weible, J (2020)
+    Weible, J (2020),
+    and many others: (https://github.com/djmendoza/Final_Projects_Su2020#references)
 
     :param user_defined_df: pd.DataFrame
     :param title_str: str
@@ -45,17 +36,13 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
     import pandas as pd
     import plotly.express as px
 
-
-
-
     user_defined_df = user_defined_df[values_str].value_counts()
     user_defined_df = pd.DataFrame(user_defined_df)
     user_defined_df = user_defined_df.reset_index()
     fig = px.pie(user_defined_df, values=values_str, names='index',
-                                  title= "\'" + title_str + "\'" + " distribution by race",
+                 title="\'" + title_str + "\'" + " distribution by race",
                  color_discrete_sequence=px.colors.sequential.RdBu)
     fig.show()
-
 
     return user_defined_df
 
@@ -80,8 +67,9 @@ def create_usrus_dataframes(civilian_df, officer_df):
     https://github.com/iSchool-590pr/Summer2020_examples/blob/master/week_09_pandas2/pandas_pt2.ipyn
     The Pandas Development Team (2020),
     https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
-    The Data Wrangling with pandas Cheat Sheet https://pandas.pydata.org/
-    and Weible, J (2020)
+    The Data Wrangling with pandas Cheat Sheet https://pandas.pydata.org/,
+    Weible, J (2020)
+    many others: (https://github.com/djmendoza/Final_Projects_Su2020#references)
 
     :return: list of dataFrames
 
@@ -124,6 +112,19 @@ def create_usrus_dataframes(civilian_df, officer_df):
     return df_list
 
 
+# # from Mrinal  https://www.kaggle.com/mrinaal007/police-shootouts (defunct)
+import numpy as np
+import pandas as pd
+import os
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import missingno as msno
+import openpyxl as opxl
+import xlrd
+import xlwt
+import xlsxwriter
+
 # Test
 # -------------
 usrus_xlsx_civ = pd.read_excel('URSUS Deadly Force Incident Data, 2016-2018.csv.xlsx',
@@ -148,10 +149,10 @@ usrus_xlsx_off = pd.read_excel('URSUS Deadly Force Incident Data, 2016-2018.csv.
                                       "CIVILIAN_Resisted": "bool"},
                                na_filter=False)
 
-# create_usrus_dataframes(usrus_xlsx_civ, usrus_xlsx_off)
+create_usrus_dataframes(usrus_xlsx_civ, usrus_xlsx_off)
 
 
-
-# # From Mapping Police Violence from here: https://mappingpoliceviolence.org/
-# mpv_state_df = pd.read_xlml('Final_project/MPVDatasetDownload.xlsx',
-#                             sheet_name='2013-2019 Killings by State')
+# From Mapping Police Violence from here: https://mappingpoliceviolence.org/
+# Additional references: (https://github.com/djmendoza/Final_Projects_Su2020#references)
+mpv_state_df = pd.read_excel('MPVDatasetDownload.xlsx',
+                             sheet_name='2013-2019 Killings by State')
