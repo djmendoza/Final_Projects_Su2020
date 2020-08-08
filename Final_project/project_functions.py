@@ -1,6 +1,7 @@
 def generate_pie_plot(user_defined_df, title_str, values_str):
     """ This function takes in a pd.DataFrame, a user defined title str, a user defined values string,
-    and then parses and produces a plotly express pie chart; it then returns the dataframe.
+    and then parses and produces a plotly express pie chart; it then appends a prefix of the title_str
+    before it returns the dataframe.
 
     It is designed for use with the Washington Post dataset below:
     The Washington Post -
@@ -10,9 +11,9 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
 
     px_title = 'armed'
     px_value ='race'
-    px_df = df[(df.armed !='unarmed')]
+    px_df = df[(df.armed !='unarmed') & (df.armed !='undetermined')]
 
-    not_unarmed_df = generate_pie_plot(px_df, px_title, px_value)
+    armed_df = generate_pie_plot(px_df, px_title, px_value)
 
 
     Adapted from or inspired by the following:
@@ -23,7 +24,7 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
     Guan. Y (2020b),
     https://github.com/iSchool-590pr/Summer2020_examples/blob/master/week_09_pandas2/pandas_pt2.ipyn
     The Pandas Development Team (2020),
-    https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
+    https://pandas.pydata.org/pandas-docs/stable/index.html
     The Data Wrangling with pandas Cheat Sheet https://pandas.pydata.org/
     Weible, J (2020),
     and many others: (https://github.com/djmendoza/Final_Projects_Su2020#references)
@@ -44,7 +45,12 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
                  color_discrete_sequence=px.colors.sequential.RdBu)
     fig.show()
 
+    # add prefix to px_value to better reflect the data
+    title_prefix = title_str + "_"
+    user_defined_df = user_defined_df.add_prefix(title_prefix)
+
     return user_defined_df
+
 
 def create_usrus_dataframes(civilian_df, officer_df):
     """This function takes in two usrus dataframes and cleans the dataframes from the designated source,
@@ -164,3 +170,6 @@ usrus_officer.tale()
 # Additional references: (https://github.com/djmendoza/Final_Projects_Su2020#references)
 mpv_state_df = pd.read_excel('MPVDatasetDownload.xlsx',
                              sheet_name='2013-2019 Killings by State')
+
+
+
