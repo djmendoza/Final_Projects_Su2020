@@ -48,7 +48,9 @@ def generate_pie_plot(user_defined_df, title_str, values_str):
 
 def create_usrus_dataframes(civilian_df, officer_df):
     """This function takes in two usrus dataframes and cleans the dataframes from the designated source,
-    creates a list of  those dataframes, and then returns that list.
+    creates a list of those dataframes, and then returns that list.
+
+    NOTE: This function does not yet function as intended!
 
     Dataset Source: https://policescorecard.org/
     Dataset Sources for complementary datasets:
@@ -79,6 +81,8 @@ def create_usrus_dataframes(civilian_df, officer_df):
     import pandas as pd  # redundant?
     import missingno as msno  # redundant
 
+    civilian_df.tale
+
     civilian_df.rename(
         columns={'Included in Police Scorecard Analysis (All Incidents where Civilians were Shot '
                  'At, '
@@ -104,10 +108,12 @@ def create_usrus_dataframes(civilian_df, officer_df):
     civilian_df.fillna(False)
     officer_df.fillna(False)
 
-    # a third combined df of both civillian and officer data, grouped by incident number
+    # a third combined df of both civilian and officer data, grouped by incident number
     # Question:  this may be a memory hog
 
     df_list = [civilian_df, officer_df]
+
+    officer_df.tale()
 
     return df_list
 
@@ -149,7 +155,9 @@ usrus_xlsx_off = pd.read_excel('URSUS Deadly Force Incident Data, 2016-2018.csv.
                                       "CIVILIAN_Resisted": "bool"},
                                na_filter=False)
 
-create_usrus_dataframes(usrus_xlsx_civ, usrus_xlsx_off)
+list = create_usrus_dataframes(usrus_xlsx_civ, usrus_xlsx_off)
+usrus_officer = list[0]
+usrus_officer.tale()
 
 
 # From Mapping Police Violence from here: https://mappingpoliceviolence.org/
