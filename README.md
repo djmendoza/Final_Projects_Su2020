@@ -80,36 +80,40 @@ Issue 2: 👮🔫 Police Shootouts 👮🔫_Original does not render correctly d
 
 ### References
 
-
-- (Dataquest Labs, 2019; Sinyangwe, 2019; The Pandas Development Team, 2020)
-
 - Bar Charts | Python | Plotly. (2020). Plotly. https://plotly.com/python/bar-charts/
 
 - Data Wrangling with pandas Cheat Sheet. (n.d.). Retrieved August 7, 2020, from http://pandas.pydata.org
 
 - Dataquest Labs, I. (2019, June 13). Excel Tutorial for Python and Pandas – Dataquest. Dataquest. https://www.dataquest.io/blog/excel-and-pandas/
 
-- Gonzalez-Barrera, A., & Lopez, M. H. (2015, June 15). Is being Hispanic a matter of race, ethnicity or both? | Pew Research Center. Pew Research Center. https://www.pewresearch.org/fact-tank/
-2015/06/15/is-being-hispanic-a-matter-of-race-ethnicity-or-both/
+- Generate a Heatmap in MatPlotLib using Pandas Data - PythonProgramming.in. (2017). Pythonprogamming.In. https://www.pythonprogramming.in/generate-a-heatmap-in-matplotlib-using-pandas-data.html
+
+- Gonzalez-Barrera, A., & Lopez, M. H. (2015, June 15). Is being Hispanic a matter of race, ethnicity or both? | Pew Research Center. Pew Research Center. https://www.pewresearch.org/fact-tank/2015/06/15/is-being-hispanic-a-matter-of-race-ethnicity-or-both/
 
 - Guan, Y. (2020a, July 7). pandas_intro.ipynb. GitHub. https://github.com/iSchool-590pr/Summer2020_examples/blob/master/week_08_pandas/pandas_intro.ipynb
 
-- Guan, Y. (2020b, July 14). Week 8 - Pandas, part 2. GitHub. https://github.com/iSchool-590pr/Summer2020_examples/blob/master/week_09_pandas2/pandas_pt2.ipynb
+- Guan, Y. (2020b, July 14). Week 8 - Pandas, part 2. GitHub. 
+https://github.com/iSchool-590pr/Summer2020_examples/blob/master/week_09_pandas2/pandas_pt2.ipynb
 
 - Hunter, J., Dale, D., Droettboom, M., & Matplot Development Team. (2020, July 17). Pyplot tutorial — Matplotlib 3.3.0 documentation. https://matplotlib.org/tutorials/introductory/pyplot.html
 
-- Jenkins, J., Rich, S., Tate, J., Muyskens, J., Fox, J., Fallis, D., & Rindler, D. (2020, July 8). Police shootings database 2015-2020 - Washington Post. Washington Post. https://
-www.washingtonpost.com/graphics/investigations/police-shootings-database/
+- Jenkins, J., Rich, S., Tate, J., Muyskens, J., Fox, J., Fallis, D., & Rindler, D. (2020, July 8). Police shootings database 2015-2020 - Washington 
 
-- Mathieu, O. (2017). Image in markdown do not display in jupyter notebooks (#33995) · Issues · GitLab.org / GitLab FOSS · GitLab. GitLab.Org. https://gitlab.com/gitlab-org/gitlab-foss/-/
-issues/33995
+- Post. Washington Post. https://www.washingtonpost.com/graphics/investigations/police-shootings-database/
+
+- Kartikaybhutani (alias). (2018, July 12). Python | Pandas Series.nunique() .  GeeksforGeeks. https://www.geeksforgeeks.org/python-pandas-series-nunique/
+
+- Kite.com. (n.d.). How to plot a 2D heatmap from a Pandas DataFrame in Python. Kite.Com. Retrieved August 8, 2020, from https://www.kite.com/python/answers/how-to-plot-a-2d-heatmap-from-a-pandas-dataframe-in-python
+
+- Mathieu, O. (2017). Image in markdown do not display in jupyter notebooks (#33995) · Issues · GitLab.org / GitLab FOSS · GitLab. GitLab.Org. https://gitlab.com/gitlab-org/gitlab-foss/-/issues/33995
 
 - mrinaal007 (alias). (2020). Police Shootouts. Kaggle. https://www.kaggle.com/mrinaal007
 
 - NetworkX Developers. (2019, October 17). Tutorial — NetworkX 2.4 documentation. NetworkX. https://networkx.github.io/documentation/stable/tutorial.html#edges
 
-- Pandey, P. (2019, October 22). Getting more value from the Pandas’ value_counts() . Towards Data Science. https://towardsdatascience.com/
-getting-more-value-from-the-pandas-value-counts-aa17230907a6
+- Pandey, P. (2019, October 22). Getting more value from the Pandas’ value_counts() . Towards Data Science. https://towardsdatascience.com/getting-more-value-from-the-pandas-value-counts-aa17230907a6
+
+- Plotly. (2020). Pie Charts | Python | Plotly. Plotly. https://plotly.com/python/pie-charts/
 
 - Samoshin, A. (2020, June). Data Police shootings | Kaggle. https://www.kaggle.com/mrmorj/data-police-shootings/notebooks?sortBy=hotness&group=everyone&pageSize=20&datasetId=723010
 
@@ -117,7 +121,7 @@ getting-more-value-from-the-pandas-value-counts-aa17230907a6
 
 - Sinyangwe, S. (2019). California Police Scorecard. Campaign Zero. https://policescorecard.org/
 
-- Tate, J., Jenkins, J., Rich, S., Muyskens, J., Kennedy Elliott, & Mellnik, T. (2015). GitHub - washingtonpost/data-police-shootings: The Washington Post is compiling a database of every fatal - shooting in the United States by a police officer in the line of duty in 2015 and 2016. The Washington Post. https://github.com/washingtonpost/data-police-shootings
+- Tate, J., Jenkins, J., Rich, S., Muyskens, J., Kennedy Elliott, & Mellnik, T. (2015). GitHub - washingtonpost/data-police-shootings: The Washington Post is compiling a database of every fatal shooting in the United States by a police officer in the line of duty in 2015 and 2016. The Washington Post. https://github.com/washingtonpost/data-police-shootings
 
 - The Constitution of the United States and The Declaration of Independence. (2016). Racehorse Publishing.
 
