@@ -5,8 +5,6 @@
 **GitHub ID**: djmendoza
 **Fork URL**: https://github.com/djmendoza/Final_Projects_Su2020
 
-**Finalized Jupyter Nbviewer**: [link](https://nbviewer.jupyter.org/github/djmendoza/Final_Projects_Su2020/blob/e9d02f4ee75361c3e2e0f9a44c5efb53213ec246/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb)
-
 ## Type III Project Background
 
 Since 2015, The Washington Post ("The Post") has been building a database of fatal police shootings in the United States,
