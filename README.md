@@ -5,8 +5,6 @@
 **GitHub ID**: djmendoza
 **Fork URL**: https://github.com/djmendoza/Final_Projects_Su2020
 
-**Finalized Jupyter Nbviewer**: [link](https://nbviewer.jupyter.org/github/djmendoza/Final_Projects_Su2020/blob/e9d02f4ee75361c3e2e0f9a44c5efb53213ec246/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb)
-
 ## Type III Project Background
 
 Since 2015, The Washington Post ("The Post") has been building a database of fatal police shootings in the United States,
@@ -29,7 +27,7 @@ It looks at age, race, body-cam use, as well as other scenarios. There is a cong
 The Type III review will cover 3 areas relating to the project:
 
 1. Project Code Review: A detailed review of user Mrinaal007's kernal notebook based on John Weible's *Program Quality and Code Reviews* (Weible, 2020) featuring some analysis.
-2. Kaggel Project Analysis Review: An detailed analysis of one of the sections of the project, featuring an enhancement.
+2. Kaggel Project Analysis Review: An detailed analysis of one of the sections of the project, featuring an enhancement (*unsucessful*).
 3. Fatal Force Database Analysis: A brief analysis of racial categories in the Washington Post's *Fatal Force* database. 
 
 ## The team member name and UID
@@ -63,8 +61,6 @@ Tate, J., Jenkins, J., Rich, S., Muyskens, J., Elliott, K., & Mellnik, T. (2015)
 ## Installation and Setup
 
 Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮🔫" from the local file location in Jupter Notebooks.
-
-Alternatively, it may be viewed in [Jupyter Nbviewer here](https://nbviewer.jupyter.org/github/djmendoza/Final_Projects_Su2020/blob/e9d02f4ee75361c3e2e0f9a44c5efb53213ec246/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb).(Recommended)
 
 A limited version can be previewed in [GitHub here](https://github.com/djmendoza/Final_Projects_Su2020/blob/master/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb) (Not Recommended), 
 
