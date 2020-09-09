@@ -27,7 +27,7 @@ It looks at age, race, body-cam use, as well as other scenarios. There is a cong
 The Type III review will cover 3 areas relating to the project:
 
 1. Project Code Review: A detailed review of user Mrinaal007's kernal notebook based on John Weible's *Program Quality and Code Reviews* (Weible, 2020) featuring some analysis.
-2. Kaggel Project Analysis Review: An detailed analysis of one of the sections of the project, featuring an enhancement (*unsucessful*).
+2. Kaggel Project Analysis Review: An detailed analysis of one of the sections of the project, featuring an enhancement.
 3. Fatal Force Database Analysis: A brief analysis of racial categories in the Washington Post's *Fatal Force* database. 
 
 ## The team member name and UID
@@ -60,18 +60,25 @@ Tate, J., Jenkins, J., Rich, S., Muyskens, J., Elliott, K., & Mellnik, T. (2015)
 
 ## Installation and Setup
 
-Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮🔫" from the local file location in Jupter Notebooks.
+* Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮🔫" from the local file location in Jupter Notebooks (Recommended).
 
-A limited version can be previewed in [GitHub here](https://github.com/djmendoza/Final_Projects_Su2020/blob/master/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb) (Not Recommended), 
+* Alteratively, a (nearly) complete version can be viewed here at:
+  * (Reccomended)     [nbviewer> djmendoza >Final_Projects_Su2020>Final_project>👮🔫 Police Shootouts 👮🔫.ipynb](https://nbviewer.jupyter.org/)
+  * (Not Reccomended)  [Direct link (may not be up-to-date)](https://nbviewer.jupyter.org/github/djmendoza/Final_Projects_Su2020/blob/master/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb)
+ (See Issue 2, Below)
 
 ## Known Issues and Troubleshooting
 
 Issue 1: The original project's plotted cells do not always post as expected when initially opening Jupyter Notebook.
-- Solution: In the Jupyter Notebook dropdown menu: Select `Kernal > Restart & Run All`
+- Solution: In the Jupyter Notebook dropdown menu: Select `Kernal > Restart & Run All`, or `Run` each cell individually.
 
-Issue 2: 👮🔫 Police Shootouts 👮🔫_Original does not render correctly due when viewed through GitHub's Notebook 
-- Solution: The original file contained a Table-of-Contents which does not render correctly given GitHub's lack of Extended Markup features. As such, the Table-of-Contents has been removed from the review copy for convient GitHub integration, with the lightly-altered original retained as legacy. If one needs to view the original, it should be loaded from a local clone. 
+Issue 2: Error when rendering at `In [56]:`
+    `hm = hm.unstack()`
+    `hm.style.background_gradient(cmap='Blues')`
+- Solution: removed from final version; may still appear in nbviewer version.
 
+
+    
 ---
 
 ### References
