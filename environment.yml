@@ -9,5 +9,4 @@ dependencies:
   - plotly
   - missingno
   - xlrd
-  - Final_Projects_Su2020/screenshots/11.Full.PNG
   # from https://github.com/binder-examples/conda
