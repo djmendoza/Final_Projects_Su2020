@@ -4,7 +4,6 @@ channels:
 dependencies:
   - numpy
   - pandas
-  - os
   - seaborn
   - matplotlib
   - missingno
