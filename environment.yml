@@ -6,5 +6,6 @@ dependencies:
   - pandas
   - seaborn
   - matplotlib
+  - plotly
   - missingno
   # from https://github.com/binder-examples/conda
