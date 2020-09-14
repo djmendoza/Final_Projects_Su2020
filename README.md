@@ -62,8 +62,8 @@ Tate, J., Jenkins, J., Rich, S., Muyskens, J., Elliott, K., & Mellnik, T. (2015)
 
 * Download a clone of the Git repository and run "👮🔫 Police Shootouts 👮🔫" from the local file location in Jupter Notebooks (Recommended).
 
-* Alteratively, a (nearly) complete version can be viewed here at:
-  * (Reccomended)     [nbviewer> djmendoza >Final_Projects_Su2020>Final_project>👮🔫 Police Shootouts 👮🔫.ipynb](https://nbviewer.jupyter.org/)
+* Alteratively, a limited version can be previewed here at:
+  * (Not Reccomended)     [nbviewer> djmendoza >Final_Projects_Su2020>Final_project>👮🔫 Police Shootouts 👮🔫.ipynb](https://nbviewer.jupyter.org/)
   * (Not Reccomended)  [Direct link (may not be up-to-date)](https://nbviewer.jupyter.org/github/djmendoza/Final_Projects_Su2020/blob/master/Final_project/%F0%9F%91%AE%F0%9F%94%AB%20Police%20Shootouts%20%20%F0%9F%91%AE%F0%9F%94%AB.ipynb)
  (See Issue 2, Below)
 
